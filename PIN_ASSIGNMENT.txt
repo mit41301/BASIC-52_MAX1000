@@ -1,0 +1,19 @@
+CLK_12	Input	PIN_H6	
+LED[7]	Output	PIN_D8	
+LED[6]	Output	PIN_C10	
+LED[5]	Output	PIN_C9	
+LED[4]	Output	PIN_B10	
+LED[3]	Output	PIN_A10	
+LED[2]	Output	PIN_A11	
+LED[1]	Output	PIN_A9	
+LED[0]	Output	PIN_A8	
+
+Tx	Output	PIN_M1	-- CONNECT Rx of USB-TTL ( 3V3 Logic LEVEL)
+Rx	Input	PIN_K1     -- CONNECT Tx of USB-TTL ( 3V3 Logic LEVEL)
+	
+SCL	Bidir	PIN_M2	--3V3 CLOCK
+SDA	Bidir	PIN_K2     --3V3 DATA
+	
+SW1	Input	PIN_E6	-- RESET		
+SW3	Input	PIN_M3    -- USER INPUT				
+
